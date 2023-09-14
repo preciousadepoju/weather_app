@@ -1,0 +1,34 @@
+#body {
+    background-image: url(./image/imageCloud.gif);
+    background-size: 100%;
+
+}
+
+.input {
+    background: none;
+}
+
+.card {
+    margin-left: 350px;
+    width: 25%;
+    /* background-image: url(../images/raindrop\ \(2\).gif); */
+    /* background-size: 100%; */
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    height: 70vh;
+}
+
+@media screen and (max-width:600px){
+    #body {
+        background-image: url(./image/ezgif-5-22f1660678.gif);
+        background-size: 100% 100vh;
+    
+    }       
+
+    .card {
+        width: 90%;
+        margin-top: 250px;
+    }
+}
